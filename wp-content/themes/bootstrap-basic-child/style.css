@@ -1,0 +1,295 @@
+/*
+Theme Name: Bootstrap Basic Child
+Author: Matt Licata and Marianna Kreidler
+Author URI: http://centerforinquiry.net
+Description: Reasonable videos
+License: MIT
+License URI: http://opensource.org/licenses/MIT
+Template: bootstrap-basic
+Text Domain: bootstrap-basic-child
+Tags: white, gray, light, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, front-page-post-form, post-formats, threaded-comments, translation-ready
+
+This theme built with Twitter Bootstrap v.3. It is basic theme with basic style for building new theme with Bootstrap.
+
+*/
+
+@import url("../bootstrap-basic/style.css");
+
+body {
+	font-family: "franklin-gothic-urw", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+	font-family: "jaf-bernina-sans-condensed", sans-serif;
+	font-weight:700;
+}
+
+a {
+	color: #616161;
+}
+
+a:hover {
+	color: black;
+}
+
+.intro {
+	text-align:center;
+	margin-top:100px;
+}
+
+.menuSection {
+	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.menuSection .navbar-form {
+	text-align:center;
+}
+
+.dropdown hr {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+@media (max-width: 767px) {
+	#main-column img, #main-column .wp-video-shortcode {
+		height: 100%;
+		width: auto;
+		max-width: auto;
+		
+	}
+	.intro {
+		margin-top: 10px;
+	}
+
+	.menuSection {
+		margin-top:10px;
+		margin-bottom:10px;
+	}
+
+	.videoSection {
+		margin-bottom: 10px !important;
+	}
+} 
+
+.videoSection {
+	margin-bottom:100px;
+}
+
+.videoUnit {
+	margin-bottom:50px;
+	height: 400px;
+}
+
+.videoThumb img {
+	width:100%;
+}
+
+.speaker {
+	font-style: italic;
+	margin-bottom:2px;
+	margin-top:14px;
+	font-family: "jaf-bernina-sans", sans-serif;
+	font-weight:300;
+}
+
+.title {
+	margin-top:0;
+	color:#1C315E;
+}
+
+.title a {
+	color:#1C315E;
+}
+
+.subtitle {
+	color:#1C315E;
+}
+
+.topic, .event {
+	margin-top:0;
+	margin-bottom:0;
+	color:#777;
+}
+
+.page-header {
+	margin-top:-86px;
+}
+
+.page-title {
+	font-family: "franklin-gothic-urw", sans-serif;
+	color:#616161;
+}
+
+.entry-header .title {
+	margin-top: 28px;
+}
+
+.entry-meta {
+	margin-top: 14px;
+}
+
+hr {
+	margin-top: 0;
+}
+
+h4.featuredspeaker {
+	font-style: italic;
+	margin-bottom:2px;
+	margin-top:14px;
+	font-size: 16px;
+	font-family: "jaf-bernina-sans", sans-serif;
+	font-weight:300;
+}
+
+h3.featuredtitle {
+	font-size: 18px !important;
+	margin-top:0;
+	color:#1C315E;
+}
+
+h3.featuredtitle a {
+	color:#1C315E;
+}
+
+.videoFeaturedThumb {
+	margin-top: 14px;
+	height: 115px;
+	width: auto;
+	overflow: hidden;
+}
+
+.videoFeaturedThumb img {
+	max-width:204px !important;
+}
+
+.videoFeaturedThumb img {
+	margin-left:-60px;
+}
+
+.videoFeaturedUnit {
+	height: 175px;
+}
+
+@media (max-width: 991px) {
+	
+	hr {
+		margin-top: 14px;
+	}
+
+	.videoThumb {
+		margin-top: 14px;
+		width: auto;
+		overflow: hidden;
+	}
+
+	.videoFeaturedThumb {
+		margin-top: 14px;
+		height: 150px;
+		width: auto;
+		overflow: hidden;
+	}
+
+	.videoFeaturedThumb img {
+		max-width: 100% !important;
+	}
+
+	.videoFeaturedThumb img {
+		margin-left: 0;
+	}
+
+	.videoFeaturedUnit {
+		height: 150px;
+	}
+
+	h4.featuredspeaker {
+		margin-top:28px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	.videoThumb {
+		margin-top: 14px;
+		height: 115px;
+		width: auto;
+		overflow: hidden;
+	}
+
+	.videoThumb img {
+		max-width:204px !important;
+	}
+
+	.videoFeaturedThumb {
+		margin-top: 14px;
+		height: 115px;
+		width: auto;
+		overflow: hidden;
+	}
+
+	.videoFeaturedThumb img {
+		max-width:204px !important;
+	}
+
+	.videoUnit {
+		height: inherit;
+	}
+
+	h4.speaker {
+		font-size: 16px;
+	}
+
+	h3.speaker {
+		font-size: 16px;
+	}
+
+	h4.featuredspeaker {
+		margin-top: 14px;
+	}
+
+	h3.title {
+		font-size: 18px !important;
+	}
+
+	h1.title {
+		font-size: 24px !important;
+	}
+
+	h2.subtitle {
+		font-size: 18px;
+	}
+
+	.page-header {
+	margin-top:-25px;
+	}
+
+}
+
+@media (max-width:500px) {
+	.videoThumb img {
+		margin-left:-60px;
+	}
+
+	.videoFeaturedThumb img {
+		margin-left:-60px;
+	}
+} 
+
+#main-column .post, #main-column .page {
+	border: none;
+	padding: 0;
+}
+
+/*.singleVideo {
+	width: 700px !important;
+}*/
+
+
+.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
+.embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+
+.footerSection {
+	text-align:center;
+}
